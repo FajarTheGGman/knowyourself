@@ -17,8 +17,8 @@
     "readline": "*",
     "request": "*",
     "shelljs": "*",
-    "sleep": "^6.2.0",
     "begoo": "*"
+
   },
   "author": "FajarTheGGman",
   "license": "ISC"
