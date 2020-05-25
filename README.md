@@ -5,8 +5,8 @@
 
 # Screenshot
 
-![alt-text](https://github.com/FajarTheGGman/wherethedirectory/blob/master/.img/banner.png)
-![alt-text](https://github.com/FajarTheGGman/wherethedirectory/blob/master/.img/content.png)
+![alt-text](https://github.com/FajarTheGGman/knowyourself/blob/master/.img/banner.png)
+![alt-text](https://github.com/FajarTheGGman/knowyourself/blob/master/.img/content.png)
 
 
 # How to install ? 
