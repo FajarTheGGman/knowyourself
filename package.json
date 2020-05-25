@@ -1,0 +1,25 @@
+{
+  "name": "knowyourself",
+  "version": "1.0.0",
+  "description": "pentesting tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node index"
+  },
+  "dependencies": {
+    "chalk": "*",
+    "cowsay": "*",
+    "fs": "*",
+    "inquirer": "*",
+    "jsome": "*",
+    "ora": "*",
+    "readline": "*",
+    "request": "*",
+    "shelljs": "*",
+    "sleep": "^6.2.0",
+    "begoo": "*"
+  },
+  "author": "FajarTheGGman",
+  "license": "ISC"
+}
