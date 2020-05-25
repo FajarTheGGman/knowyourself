@@ -37,5 +37,7 @@ fi
 echo -e $green "Done !"
 
 echo "[!] Installing Nodejs Package"
-npm install
+npm install chalk cowsay fs inquirer jsome ora readline begoo request shelljs 
+
+
 npm start
