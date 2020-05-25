@@ -6,7 +6,7 @@ var load = require('ora')
 var req = require('request')
 var ask = require('inquirer')
 var s = require('shelljs')
-var xx = require('sleep')
+
 var banner = require("begoo")
 var warna = require("chalk")
 var warna2 = require("colors")
@@ -65,8 +65,9 @@ ask.prompt({
 
 
 // Tracking Function
+setInterval(() => {
 function tracking(){
-xx.sleep(5)
+
 
 console.log(warna.bgBlue("[Link] : ") + warna2.rainbow(s.exec("curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o 'https://[0-9a-z]*\.ngrok.io'")))
 
@@ -103,3 +104,4 @@ fs.watchFile("./output/ip.txt", (current, previous) => {
     })
 })
 }
+},5000)
