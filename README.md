@@ -18,7 +18,7 @@ Linux
 2.git clone https://github.com/FajarTheGGman/knowyourself
 3.cd knowyourself
 5.sudo bash install.sh
-<pre>
+</pre>
 
 Termux
 
@@ -27,7 +27,7 @@ Termux
 2.git clone https://github.com/FajarTheGGman/knowyourself
 3.cd knowyourself
 5.bash install.sh
-<pre>
+</pre>
 
 # How To Run ? 
 
