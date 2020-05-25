@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 blue='\033[34;1m'
 green='\033[32;1m'
@@ -17,20 +17,19 @@ apt-get install nodejs wget unzip tar -y
 echo -e $blue "Done !"
 
 echo -e $yellow "[!] Downloading Ngrok"
-cek=$(dpkg --print-architecture)
 
-if [[ $cek == "amd64" ]]; then
+x=$(dpkg --print-architecture)
+if [[ $x == "amd64" ]]; then
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 fi
 
-if [[ $cek == 'arm64' ]] then
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.tgz
-tar -xzvf ngrok-stable-linux-arm64.tgz
+if [[ $x == "arm" ]]; then
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
 fi
 
 echo -e $green "Done !"
-
 
 echo "[!] Installing Nodejs Package"
 npm install
