@@ -15,5 +15,3 @@ navigator.getBattery().then((s) => {
 })
 }
 
-window.location.href = '/';
-
