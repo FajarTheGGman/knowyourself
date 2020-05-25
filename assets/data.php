@@ -1,5 +1,5 @@
 <?php
-
+error_reporting(0);
 
 // get client ip
 $ip = $_SERVER['HTTP_CLIENT_IP'];
