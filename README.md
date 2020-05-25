@@ -12,6 +12,7 @@
 # How to install ? 
 
 Linux
+
 <pre>
 1.sudo apt-get install git -y
 2.git clone https://github.com/FajarTheGGman/knowyourself
@@ -20,6 +21,7 @@ Linux
 <pre>
 
 Termux
+
 <pre>
 1.apt-get install git -y
 2.git clone https://github.com/FajarTheGGman/knowyourself
