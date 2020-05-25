@@ -66,6 +66,8 @@ ask.prompt({
 
 // Tracking Function
 setInterval(() => {
+    consoke.log(warna.bgBlue("[!] Please wait.."))
+}, 5000)
 function tracking(){
 
 
@@ -104,4 +106,4 @@ fs.watchFile("./output/ip.txt", (current, previous) => {
     })
 })
 }
-},5000)
+
