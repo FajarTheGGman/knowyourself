@@ -29,6 +29,11 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 fi
 
+if [[ $x == "aarch64" ]]; then
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+fi
+
 echo -e $green "Done !"
 
 echo "[!] Installing Nodejs Package"
