@@ -13,7 +13,7 @@ echo -e $blue "KnowYourSelf By FajarTheGGman"
 echo -e $green "[-----------------]\n"
 
 echo -e $green "[/] Installing Package"
-apt-get install nodejs wget unzip tar -y
+apt-get install nodejs wget unzip tar php -y
 echo -e $blue "Done !"
 
 echo -e $yellow "[!] Downloading Ngrok"
