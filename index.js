@@ -67,7 +67,7 @@ ask.prompt({
 // Tracking Function
 
 function tracking(){
-
+setTimeout(() => {
 
 console.log(warna.bgBlue("[Link] : ") + warna2.rainbow(s.exec("curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o 'https://[0-9a-z]*\.ngrok.io'")))
 
@@ -103,5 +103,6 @@ fs.watchFile("./output/ip.txt", (current, previous) => {
         
     })
 })
+}, 3000)
 }
 
