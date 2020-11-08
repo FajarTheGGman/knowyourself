@@ -18,7 +18,7 @@ watermark({
     Coder: "FajarTheGGman",
     Github: "FajarTheGGman",
     Instagram: "FajarTheGGman",
-    Twitter: "@FajarFi69170369"
+    Twitter: "@Kernel024"
 })
 
 
